@@ -1,0 +1,20 @@
+teste
+.venv
+*.csv
+*.pyc
+.env
+*.log
+*.gitkeep
+
+# Ignorar configurações locais do usuário
+profiles.yml
+.user.yml
+
+# Ignorar arquivos do sistema operacional e Python
+__pycache__/
+.venv/
+.DS_Store
+
+# Ignorar o banco de dados (Binário gigante, não deve ir pro git!)
+*.duckdb
+*.db
